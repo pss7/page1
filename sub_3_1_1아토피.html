@@ -25,7 +25,40 @@
 
     <script src="js/script.js"></script>
     <script src="js/sub.js"></script>
+<style>
+    
+/* 수정 */
+.com_tit_box1.st2 h3{position: relative; margin-bottom: 50px; padding-bottom: 46px;}
+.com_tit_box1.st2 h3::after{content: ''; width: 42px; height: 6px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; background-color: #009f93;}
+.com_tit_box1.st2 p{font-weight: 400; font-size: 24px;  letter-spacing: -2px;}
+.com_tit_box1.st2 p.tit{margin-bottom: 30px;}
+.com_tit_box1.st2 p .color{font-size: 30px; font-weight: 700; line-height: 52px; color: #009f93;}
+.com_tit_box1.st2 p .color strong{font-size: 45px;}
+.com_content_wrap3.st{background: url(../images/sub/bg2.png)no-repeat; background-size: cover;}
+.com_tit_box1.st2 h3.st{margin-bottom: 82px;}
+.com_content_wrap5.st .img_box{margin-top: 100px;}
+.com_list2.st3{display: inline-block; width: auto; text-align: left; margin: 0 -15px; padding: 0px 53px;}
+.com_list2.st3 li{display: inline-block; width: 435px; margin: 0 15px 33px}
+.com_list2.st3 li .text{height: 229px; padding: 48px 5px 0;}
+.com_list2.st3 li .text h4{margin-bottom: 18px; font-size: 30px;}
+.com_list2.st3 li .text p{font-size: 20px;}
+.com_list2_wrap{text-align: center;}
+.com_content_wrap8.st .com_wrap3 .com_tit_box1{margin-bottom: 134px;}
+.com_content_wrap8.st p.st{font-size: 24px; font-weight: 300;}
+.com_content_wrap8.st .com_wrap3 .com_wrap3_list{margin-top: 0;}
+.com_content_wrap8.st .com_wrap3_text{bottom: 326px; font-size: 24px; line-height: 36px;}
+.com_content_wrap8 .is-inview{animation: none;}
 
+/* 공통 */
+.is-inview{animation: op_effect 1s both;}
+@keyframes op_effect{
+
+     0%{opacity: 0; transform: translateY(70px);}
+     100%{opacity: 1; transform: translateY(0);}
+ 
+ }
+ 
+</style>
 </head>
 
 <body>
@@ -150,21 +183,15 @@
                     <div class="com_content_wrap1">
                         <div class="container">
                             <div class="com_content_box1">
-                                <div class="com_tit_box1 op_effect" data-scroll>
-                                    <h3>
+                                <div class="com_tit_box1 st2">
+                                    <h3 data-scroll>
                                         아토피 치료는 <br>
                                         생기한의원
                                     </h3>
-
-                                    <div class="text_img op_effect" data-scroll>
-                                        <img src="images/sub/text_img1.png" alt="생기">
-                                    </div>
-                                    <!-- //text_img -->
-
                                 </div>
                                 <!-- //com_tit_box1 -->
 
-                                <div class="sub_count op_effect" data-scroll>
+                                <div class="sub_count " data-scroll>
                                     <span>
                                         생기한의원 19개 지점 누적 치료건수
                                     </span>
@@ -187,7 +214,7 @@
                         <div class="container">
                             <div class="com_content_box2">
                                 <div class="com_rayout_box2">
-                                    <div class="com_rayout_left">
+                                    <div class="com_rayout_left" data-scroll>
                                         <ul class="video_box slider-for">
                                             <li>
                                                 <h3>
@@ -219,7 +246,7 @@
                                     </div>
                                     <!-- //com_rayout_left -->
 
-                                    <div class="com_rayout_right">
+                                    <div class="com_rayout_right" data-scroll>
                                         <div class="video_list_wrap">
                                             <ul class="video_list slider-nav">
                                                 <li>
@@ -287,7 +314,7 @@
                                     </div>
                                     <!-- //com_rayout_right -->
 
-                                    <a href="#" class="view st">
+                                    <a href="#" class="view st" data-scroll>
                                         <span>생기 TV 더보기</span>
                                     </a>
 
@@ -303,31 +330,30 @@
                     </div>
                     <!-- //com_content_wrap2 -->
 
-                    <div class="com_content_wrap3">
+                    <div class="com_content_wrap3 st">
                         <div class="container">
                             <div class="com_wrap1">
-                                <div class="com_tit_box1 op_effect" data-scroll>
-                                    <h3>
+                                <div class="com_tit_box1  st2">
+                                    <h3 data-scroll>
                                         아토피 바로알기
                                     </h3>
-                                    <div class="text_img op_effect" data-scroll>
-                                        <img src="images/sub/text_img1.png" alt="생기">
-                                    </div>
-                                    <!-- //text_img -->
-                                    <p class="op_effect" data-scroll>
-                                        <span class="color">“가려움, 피부건조, 발진 등 특징적인 습진을 동반하는 만성 재발성 염증성 피부질환”</span> <br>
-                                        <br>
-
+                                    <p class="tit " data-scroll>
+                                        <span class="color">
+                                            가려움, 피부건조, 발진 등 특징적인 습진을 동반하는 <br>
+                                            <strong>“만성 재발성, 염증성 피부질환”</strong>
+                                        </span>
+                                    </p>
+                                    <p data-scroll>
                                         아토피는 ‘비정상적인 반응’, ‘기묘한’, ‘알 수 없는’ 의미의 그리스어가 어원으로 <br>
-                                        현재까지도 정확한 원인이 밝혀지지 않은 복잡한 기전을 가진 난치성 피부질환 입니다. <br>
-                                        원인과 증상, 병변의 정도가 환자에 따라 달라서 까다로운 질환이지만 <br>
-                                        개인에 맞는 원인과 치료법으로 꾸준한 면역 관리가 이루어진다면 생기 넘치는 건강한 피부로 다시 돌아올 수 있습니다.
+                                        현재까지도 정확한 원인이 밝혀지지 않은 복잡한 기전을 가진 난치성 피부질환 이지만, <br>
+                                        개인별 원인을 찾고 적합한 치료와 함께 꾸준한 면역 관리까지 이루어진다면 <br>
+                                        생기 넘치는 건강한 피부로 다시 돌아올 수 있습니다.
                                     </p>
                                 </div>
                                 <!-- //com_tit_box1 -->
 
-                                <div class="com_img op_effect" data-scroll>
-                                    <img src="images/sub/com_img1.jpg" alt="">
+                                <div class="com_img " data-scroll>
+                                    <img src="images/sub/com_img1.jpg" alt="피부 속부터 올바른 치료">
                                 </div>
                                 <!-- //com_img -->
 
@@ -343,11 +369,11 @@
                     <div class="com_content_wrap4">
                         <div class="container">
                             <div class="com_content_box4">
-                                <div class="com_tit_box1 op_effect" data-scroll>
-                                    <h3 class="st">
+                                <div class="com_tit_box1  st2">
+                                    <h3 class="st" data-scroll>
                                         아토피의 발생 원인
                                     </h3>
-                                    <p class="op_effect" data-scroll>
+                                    <p class="" data-scroll>
                                         아직 명확한 원인은 밝혀지지 않았지만, <br>
                                         생기한의원에서는 수많은 케이스의 진료와 네트워크 연구 활동을 통해 <br>
                                         인체 전반적인 면역의 문제로 발생하는 자가면역질환으로 판단하고 진료합니다.
@@ -356,11 +382,11 @@
                                 <!-- //com_tit_box1 -->
 
                                 <ul class="atopy_list1">
-                                    <li>
-                                        <img src="images/sub/atopy_box4_img1.jpg" alt="">
+                                    <li data-scroll>
+                                        <img src="images/sub/atopy_box4_img1.jpg" alt="인사이드아웃(inside-out)가설">
                                     </li>
-                                    <li>
-                                        <img src="images/sub/atopy_box4_img2.jpg" alt="">
+                                    <li data-scroll>
+                                        <img src="images/sub/atopy_box4_img2.jpg" alt="아웃사이드인(outside-in)가설">
                                     </li>
                                 </ul>
                                 <!-- //atopy_list1 -->
@@ -374,20 +400,24 @@
                     </div>
                     <!-- //com_content_wrap4 -->
 
-                    <div class="com_content_wrap5">
+                    <div class="com_content_wrap5 st">
                         <div class="container">
                             <div class="com_content_box5">
-                                <div class="com_tit_box1 op_effect" data-scroll>
-                                    <h3 class="st op_effect" data-scroll>
+                                <div class="com_tit_box1 st2 ">
+                                    <h3 class="st " data-scroll>
                                         아토피의 치료 원리
                                     </h3>
-                                    <p class="op_effect" data-scroll>
+                                    <p data-scroll>
                                         아토피는 원인과 증상, 질환의 정도가 환자마다 다르기에 정확한 진단과 함께 <br>
                                         인체의 유기적인 작용 이론과 원리 등 치료 개념의 이해가 치료의 핵심입니다.
                                     </p>
                                 </div>
                                 <!-- //com_tit_box1 -->
 
+                                <div class="img_box" data-scroll>
+                                    <img src="images/sub/atopy_box5_img2.jpg" alt="">
+                                </div>
+                                <!--
                                 <div class="symptom_wrap">
                                     <h4>
                                         피부질환 환자들의 대표적인 증상 2가지
@@ -396,26 +426,19 @@
                                         <li>･ 위장, 소장, 대장 등 소화기관과 연관된 증상을 동반한다.</li>
                                         <li>･ 수면장애, 우울증, 화병, 스트레스 등 뇌신경 계통 증상을 동반한다.</li>
                                     </ul>
-                                    <!-- //symptom_list -->
-
                                 </div>
-                                <!-- //symptom_wrap -->
-
                                 <h5>
                                     ‘장’ + ‘뇌’ + ‘피부’ 의 유기적인 작용
                                 </h5>
                                 <p class="color">
                                     gut-brain-skin axis 이론과 치료 원리
                                 </p>
-
                                 <div class="img_wrap">
                                     <div class="img_box">
                                         <img src="images/sub/atopy_box5_img1.jpg" alt="">
                                     </div>
-                                    <!-- //img_box -->
-
                                 </div>
-                                <!-- //img_wrap -->
+                                -->
 
                             </div>
                             <!-- //com_content_box5 -->
@@ -429,165 +452,161 @@
                     <div class="com_content_wrap6">
                         <div class="container">
                             <div class="com_content_box6">
-                                <div class="com_tit_box1 op_effect" data-scroll>
-                                    <h3 class="st">
+                                <div class="com_tit_box1 st2 ">
+                                    <h3 class="st" data-scroll>
                                         아토피 증상과 특징
                                     </h3>
-                                    <p class="op_effect" data-scroll>
+                                    <p class="" data-scroll>
                                         아토피는 각 환자에 따라 다양한 증상과 정도에 차이가 있어, <br>
                                         정확한 진단을 받는 것이 무엇보다 중요합니다.
                                     </p>
                                 </div>
                                 <!-- //com_tit_box1 -->
 
-                                <ul class="com_list2">
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img1.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                <div class="com_list2_wrap">
+                                    <ul class="com_list2 st3">
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img1.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                가려움
-                                            </h4>
-                                            <p>
-                                                아토피 전반에 걸쳐 나타나는 가려움은 <br>
-                                                가장 괴로움을 호소하는 증상 중 하나
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img2.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                            <div class="text">
+                                                <h4>
+                                                    가려움
+                                                </h4>
+                                                <p>
+                                                    아토피 전반에 걸쳐 나타나는 가려움은 <br>
+                                                    가장 괴로움을 호소하는 증상 중 하나
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img2.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                홍반, 홍조, 홍종
-                                            </h4>
-                                            <p>
-                                                염증성 증상으로 염증 정도를 <br>
-                                                파악할 수 있는 척도가 되는 증상
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img3.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                            <div class="text">
+                                                <h4>
+                                                    홍반, 홍조, 홍종
+                                                </h4>
+                                                <p>
+                                                    염증성 증상으로 염증 정도를 <br>
+                                                    파악할 수 있는 척도가 되는 증상
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img3.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                각질
-                                            </h4>
-                                            <p>
-                                                혈액 순환이 원활하지 않아 <br>
-                                                피부가 정상 재생되지 못하고 <br>
-                                                손상되는 증상
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img4.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                            <div class="text">
+                                                <h4>
+                                                    각질
+                                                </h4>
+                                                <p>
+                                                    혈액 순환이 원활하지 않아 <br>
+                                                    피부가 정상 재생되지 못하고 손상되는 증상
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img4.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                진물
-                                            </h4>
-                                            <p>
-                                                노폐물이 배출되지 못하고 쌓이다가 <br>
-                                                피부 염증으로 세포가 손상되며 <br>
-                                                나타나는 증상
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img5.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                            <div class="text">
+                                                <h4>
+                                                    진물
+                                                </h4>
+                                                <p>
+                                                    노폐물이 배출되지 못하고 쌓이다가 <br>
+                                                    피부 염증으로 세포가 손상되며 나타나는 증상
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img5.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                태선화
-                                            </h4>
-                                            <p>
-                                                긁는 습관으로 인해 피부 표피가 <br>
-                                                나무껍질처럼 거칠어지고 <br>
-                                                두텁게 변하는 증상
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img6.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                            <div class="text">
+                                                <h4>
+                                                    태선화
+                                                </h4>
+                                                <p>
+                                                    긁는 습관으로 인해 피부 표피가 <br>
+                                                    나무껍질처럼 거칠어지고 두텁게 변하는 증상
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img6.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                색소침착
-                                            </h4>
-                                            <p>
-                                                피하 혈액이 어혈 형태로 검어지거나 <br>
-                                                피부 염증이 회복되는 과정에서 <br>
-                                                검게 침착되는 증상
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img7.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                            <div class="text">
+                                                <h4>
+                                                    색소침착
+                                                </h4>
+                                                <p>
+                                                    피하 혈액이 어혈 형태로 검어지거나 <br>
+                                                    피부 염증이 회복되는 과정에서 검게 침착되는 증상
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img7.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                백색피부묘기증
-                                            </h4>
-                                            <p>
-                                                피부에 혈액이 정체되어 있어 <br>
-                                                압력을 가하면 혈액 이 밀리면서 <br>
-                                                생기는 반응으로 기혈의 정체를 <br>
-                                                의미 하는 증상
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
-                                    <li>
-                                        <div class="img">
-                                            <img src="images/sub/symptom_img8.jpg" alt="">
-                                        </div>
-                                        <!-- //img -->
+                                            <div class="text">
+                                                <h4>
+                                                    백색피부묘기증
+                                                </h4>
+                                                <p>
+                                                    기혈 순환이 저하되고 피부 혈액의 정체로 <br>
+                                                    압력 발생 시 혈액이 밀리면서 생기는 반응
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
+                                        <li data-scroll>
+                                            <div class="img">
+                                                <img src="images/sub/symptom_img8.jpg" alt="">
+                                            </div>
+                                            <!-- //img -->
 
-                                        <div class="text">
-                                            <h4>
-                                                2차 감염
-                                            </h4>
-                                            <p>
-                                                만성화된 아토피와 무분별한 <br>
-                                                면역억제제 사용으로 인해 <br>
-                                                바이러스, 박테리아, 곰팡이균에 <br>
-                                                감염되어 전신 증상이 나타나는 상태
-                                            </p>
-                                        </div>
-                                        <!-- //text -->
-                                    </li>
+                                            <div class="text">
+                                                <h4>
+                                                    2차 감염
+                                                </h4>
+                                                <p>
+                                                    만성 아토피와 과도한 면역억제제로 바이러스, 박테리아, <br>
+                                                    곰팡이균에 감염되어 전신 증상이 나타난 상태
+                                                </p>
+                                            </div>
+                                            <!-- //text -->
+                                        </li>
 
-                                </ul>
-                                <!-- //symptom_list -->
+                                    </ul>
+                                    <!-- //symptom_list -->
+
+                                </div>
+                                <!-- //com_list2_wrap -->
 
                             </div>
                             <!-- //com_content_box6 -->
@@ -602,8 +621,8 @@
                         <div class="container">
                             <div class="com_content_box7">
                                 <div class="com_wrap2">
-                                    <div class="com_tit_box1 op_effect" data-scroll>
-                                        <h3 class="st">
+                                    <div class="com_tit_box1">
+                                        <h3 class="st" data-scroll>
                                             아토피, 그것이 알고 싶다
                                         </h3>
                                     </div>
@@ -611,12 +630,12 @@
 
                                     <div class="com_question_wrap">
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_left.jpg" alt="환자">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     성인이 되어서 아토피가 생겼어요/심해졌어요.
                                                 </p>
@@ -629,12 +648,12 @@
                                         <!-- //com_question -->
 
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_right.jpg" alt="생기한의원">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     아토피는 언제든 발생 할 수 있습니다.
                                                 </p>
@@ -647,7 +666,7 @@
                                                 </p>
                                                 <!-- //text -->
 
-                                                <img src="images/sub/com_question_img1.jpg" alt="">
+                                                <img src="images/sub/com_question_img1.jpg" alt="" data-scroll>
 
                                             </div>
                                             <!-- //com_question_left -->
@@ -656,12 +675,12 @@
                                         <!-- //com_question -->
 
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_left.jpg" alt="환자">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     아토피 치료를 받아도 별 도움이 안 되는 것 같아요.
                                                 </p>
@@ -674,12 +693,12 @@
                                         <!-- //com_question -->
 
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_right.jpg" alt="생기한의원">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     재발을 방지하는 것을 목표로 하고 있습니다.
                                                 </p>
@@ -699,12 +718,12 @@
                                         <!-- //com_question -->
 
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_left.jpg" alt="환자">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     다른 곳 갔더니 아토피가 아니라고 하던데요.
                                                 </p>
@@ -717,12 +736,12 @@
                                         <!-- //com_question -->
 
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_right.jpg" alt="생기한의원">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     피부질환은 오진하기가 너무 쉬운 영역입니다.
                                                 </p>
@@ -735,7 +754,7 @@
                                                 </p>
                                                 <!-- //text -->
 
-                                                <img src="images/sub/com_question_img2.jpg" alt="">
+                                                <img src="images/sub/com_question_img2.jpg" alt="" data-scroll>
 
                                             </div>
                                             <!-- //com_question_left -->
@@ -744,12 +763,12 @@
                                         <!-- //com_question -->
 
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_left.jpg" alt="환자">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     성인이 되어서 아토피가 생겼어요/심해졌어요.
                                                 </p>
@@ -762,12 +781,12 @@
                                         <!-- //com_question -->
 
                                         <div class="com_question">
-                                            <div class="com_question_left">
+                                            <div class="com_question_left" data-scroll>
                                                 <img src="images/sub/com_question_right.jpg" alt="생기한의원">
                                             </div>
                                             <!-- //com_question_left -->
 
-                                            <div class="com_question_right">
+                                            <div class="com_question_right" data-scroll>
                                                 <p class="com_question_text">
                                                     일시적인 치료는 결코 해결책이 될 수 없습니다.
                                                 </p>
@@ -802,27 +821,29 @@
                     </div>
                     <!-- //com_content_wrap7 -->
 
-                    <div class="com_content_wrap8">
+                    <div class="com_content_wrap8 st">
                         <div class="container">
                             <div class="atopy_box8">
                                 <div class="com_wrap3">
-                                    <div class="com_tit_box1 op_effect" data-scroll>
-                                        <h3 class="st st2">
+                                    <div class="com_tit_box1">
+                                        <h3 class="st st2" data-scroll data-scroll-speed="2" data-scroll-delay="0.7">
                                             아토피 생기 치료는?
                                         </h3>
                                     </div>
                                     <!-- //com_tit_box1 -->
 
-                                    <p class="op_effect" data-scroll>
-                                        생기한의원은 비주기육(脾主肌肉) : ‘위장관이 피부와 근육을 주관하며, 심신일여(心身一如) : 몸과 마음이 같아 <br>
-                                        인체가 유기적으로 연결되어 있다는 것’을 치료의 핵심 원리로 아토피를 오 랜 시간 연구 해왔습니다. <br>
+                                    <p class=" st" data-scroll data-scroll-speed="1.5" data-scroll-delay="0.7">
+                                        생기한의원은 비주기육(脾主肌肉) : ‘위장관이 피부와 근육을 주관하며, <br>
+                                        심신일여(心身一如) : 몸과 마음이 같아 인체가 유기적으로 연결되어 있다는 것’을 <br>
+                                        치료의 핵심 원리로 아토피를 오랜 시간 연구 해왔습니다. <br>
                                         아토피는 내부적인 원인이 있어 증상 치료만으로는 재발하기 쉽고, 치료가 원활하지 않은 경우가 많습니다. <br>
                                         체질적인 문제, 내부 장기의 부조화 등 원인에 접근하여 장기의 부조화를 바로 잡고 <br>
                                         독소, 노폐물을 제거하는 등 면역을 강화, 지속 시키는 SBT 치료가 필요한 이유입니다.
                                     </p>
 
                                     <ul class="com_wrap3_list">
-                                        <li>
+                                        <li data-scroll data-scroll-speed="2" data-scroll-delay="0.1"
+                                            style="margin-top: -30px;">
                                             <span>
                                                 Saengki Care. 01
                                             </span>
@@ -831,7 +852,8 @@
                                                 증상 개선 치료
                                             </h4>
                                         </li>
-                                        <li>
+                                        <li data-scroll data-scroll-speed="1" data-scroll-delay="0.1"
+                                            style="margin-top: 160px;">
                                             <span>
                                                 Saengki Care. 02
                                             </span>
@@ -840,7 +862,8 @@
                                                 피부 개선 치료
                                             </h4>
                                         </li>
-                                        <li>
+                                        <li data-scroll data-scroll-speed="3.8" data-scroll-delay="0.1"
+                                            style="margin-top: -53px">
                                             <span>
                                                 Saengki Care. 03
                                             </span>
@@ -849,7 +872,8 @@
                                                 면역 회복 치료
                                             </h4>
                                         </li>
-                                        <li>
+                                        <li data-scroll data-scroll-speed="2.3" data-scroll-delay="0.2"
+                                            style="margin-top: 202px">
                                             <span>
                                                 Saengki Care. 04
                                             </span>
@@ -860,6 +884,12 @@
                                         </li>
                                     </ul>
                                     <!-- //com_wrap3_list -->
+
+                                    <p class="com_wrap3_text" data-scroll data-scroll-speed="1" data-scroll-delay="0.2">
+                                        난치성 피부질환으로 <br>
+                                        지친 마음까지 건강이 넘치는 오늘을 위한 생기 노하우
+                                    </p>
+                                    <!-- //com_wrap3_text -->
 
                                 </div>
                                 <!-- //com_wrap3 -->
@@ -880,28 +910,28 @@
                                     <div class="box">
                                         <div class="program_box1_left">
                                             <div class="top">
-                                                <h4>
+                                                <h4 data-scroll>
                                                     SBT Program 2.0
                                                 </h4>
-                                                <span>
+                                                <span data-scroll>
                                                     <em>S</em>ustainable <em>B</em>alancing <em>T</em>herapy
                                                 </span>
                                             </div>
-                                            <p>
+                                            <p data-scroll>
                                                 난치성 피부질환은 우리 몸 전체를 이루는 유기적인 균형 <br>
                                                 즉, 면역 밸런스가 무너짐에서 발생합니다. <br>
                                                 증상 및 원인을 치료하여 무너진 면역 밸런스를 되돌리고 <br>
                                                 건강한 면역력을 오랜 기간 유지하도록 치료, 관리하는 <br>
                                                 체계적인 면역 치료 프로그램입니다.
                                             </p>
-                                            <p>
+                                            <p data-scroll>
                                                 생기치료프로그램은 전국 19개지점 수많은 한의사들이 연구한 결과를 기반으로 <br>
                                                 증상과 원인의 치료는 물론, 지속가능한 면역을 만들기위한 종합치료솔루션입니다.
                                             </p>
                                         </div>
                                         <!-- //program_box1_left -->
 
-                                        <div class="program_box1_right">
+                                        <div class="program_box1_right" data-scroll>
                                             <img src="images/sub/program_img1.png" alt="">
                                         </div>
                                         <!-- //program_box1_right -->
@@ -909,7 +939,7 @@
                                     </div>
                                     <!-- //box -->
 
-                                    <div class="program_box1_bottom">
+                                    <div class="program_box1_bottom" data-scroll>
                                         <div class="img">
                                             <img src="images/sub/program_img3.jpg" alt="">
                                         </div>
@@ -930,7 +960,7 @@
                     </div>
                     <!-- //com_content_wrap9 -->
 
-                    <div class="com_content_wrap10">
+                    <div class="com_content_wrap10" data-scroll>
                         <div class="container">
                             <div class="com_content_box10">
                                 <div class="com_wrap5">
@@ -1087,25 +1117,25 @@
                         <div class="container">
                             <div class="com_review_box2">
                                 <div class="review_com_left com_tit_box2">
-                                    <span class="op_effect" data-scroll>
+                                    <span class="" data-scroll>
                                         치료 전후사진
                                     </span>
-                                    <p class="op_effect" data-scroll>
+                                    <p class="" data-scroll>
                                         피부질환의 아픔을 공감하고 <br>
                                         사례 공개에 동의해주신 <br>
                                         환자분들께 감사한 마음을 전합니다
                                     </p>
-                                    <a href="#" class="view st op_effect" data-scroll>
+                                    <a href="#" class="view st " data-scroll>
                                         <span>전후사진 더보기</span>
                                     </a>
-                                    <em class="op_effect" data-scroll>
+                                    <em class="" data-scroll>
                                         Before & <br>
                                         After
                                     </em>
                                 </div>
                                 <!-- //review_com_left -->
 
-                                <div class="review_com_right op_effect" data-scroll>
+                                <div class="review_com_right " data-scroll>
                                     <ul class="before_after_list slick">
                                         <li>
                                             <div class="img">
@@ -1152,7 +1182,7 @@
                     </div>
                     <!-- //com_review_wrap -->
 
-                    <div class="com_content_wrap11 op_effect" data-scroll>
+                    <div class="com_content_wrap11 " data-scroll>
                         <div class="com_content_box11">
                             <div class="com_slick_wrap">
                                 <ul class="com_list_wrap2 slick">
@@ -1201,7 +1231,7 @@
                     <div class="com_branch_wrap">
                         <div class="container">
                             <div class="com_branch">
-                                <div class="com_tit op_effect" data-scroll>
+                                <div class="com_tit " data-scroll>
                                     <h3>
                                         Branch
                                     </h3>
@@ -1212,12 +1242,12 @@
                                 <!-- //com_tit -->
 
                                 <div class="branch_wrap">
-                                    <div class="branch_left op_effect" data-scroll>
+                                    <div class="branch_left " data-scroll>
                                         <img src="images/main/map.png" alt="">
                                     </div>
                                     <!-- //branch_left -->
 
-                                    <div class="branch_right op_effect" data-scroll>
+                                    <div class="branch_right " data-scroll>
                                         <div class="info">
                                             <div class="info_left">
                                                 <h4>
@@ -1303,7 +1333,7 @@
                                 </div>
                                 <!-- //branch_wrap -->
 
-                                <a href="#" class="find_btn op_effect" data-scroll>
+                                <a href="#" class="find_btn " data-scroll>
                                     <span>나와 가까운 지점 찾기</span>
                                 </a>
 
