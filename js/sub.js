@@ -90,10 +90,52 @@ $(function () {
         return false;
     });
 
-    const scroll = new LocomotiveScroll({
-        el: document.querySelector('[data-scroll-container]'),
-        smooth: true
+    gsap.registerPlugin(ScrollTrigger);
+
+    const locoScroll = new LocomotiveScroll({
+        el: document.querySelector('#wrap'),
+        smooth: true,
+        smoothMobile: true,
+        paused: true,
+        onUpdate: () => {
+            window.dispatchEvent(new Event('resize'));
+        },
+        multiplier: 1,
+        smartphone: {
+            smooth: true
+        },
+        tablet: {
+            smooth: true
+        },
+        useKeyboard: true,
+
     });
+
+    var lastScrollTop = 0;
+    var delta = 0;
+    locoScroll.on('scroll', (position) => {
+    });
+
+    locoScroll.on("scroll", ScrollTrigger.update);
+
+    ScrollTrigger.scrollerProxy("#wrap", {
+        scrollTop(value) {
+            return arguments.length
+                ? locoScroll.scrollTo(value, 0, 0)
+                : locoScroll.scroll.instance.scroll.y;
+        },
+        getBoundingClientRect() {
+            return {
+                top: 0,
+                left: 0,
+                width: window.innerWidth,
+                height: window.innerHeight
+            };
+        },
+        pinType: document.querySelector('#wrap').style.transform ? "transform" : "fixed"
+    });
+    ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
+    ScrollTrigger.refresh();
 
 });
 
