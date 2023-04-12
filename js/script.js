@@ -2,13 +2,6 @@ $(function () {
 
     $('.com_img_effect').addClass('active');
  
-    /* aos */
-    $(window).on('load', function () {
-        AOS.init({
-            duration: 1700
-        });
-    });
-
     /* header */
     $('#header .link a').click(function () {
         if ($(this).hasClass('active')) {

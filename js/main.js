@@ -1,4 +1,11 @@
 $(function () {
+    
+    /* aos */
+    $(window).on('load', function () {
+        AOS.init({
+            duration: 1700
+        });
+    });
 
     /* section1 */
     $('#section1 .slick').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
