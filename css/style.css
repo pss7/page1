@@ -1,5 +1,6 @@
  @charset "utf-8";
 
+#wrap{min-width: 1920px;}
 
 /* 가운데 영역 */
 .container{width: 1480px; margin: 0 auto;}
