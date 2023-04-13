@@ -4,7 +4,7 @@
 .com_branch_wrap2{margin-top: 50px;}
 .com_branch_wrap .com_branch{padding-top: 114px;}
 
-/* 수정 */
+/* 수정
 .com_tit_box1.st2 h3{position: relative; margin-bottom: 50px; padding-bottom: 46px;}
 .com_tit_box1.st2 h3::after{content: ''; width: 42px; height: 6px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; background-color: #009f93;}
 .com_tit_box1.st2 p{font-weight: 400; font-size: 24px;  letter-spacing: -2px;}
@@ -25,6 +25,7 @@
 .com_content_wrap8.st .com_wrap3 .com_wrap3_list{margin-top: 0;}
 .com_content_wrap8.st .com_wrap3_text{bottom: 326px; font-size: 24px; line-height: 36px;}
 .com_content_wrap8 .is-inview{animation: none;}
+ */
 
 /* 공통 */
 .color{color: #378f90; font-weight: 500; font-size: 20px;}
