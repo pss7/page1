@@ -878,7 +878,7 @@ select{border-radius:0; }
 .com_wrap3 .com_tit_box1 h3.st2{margin-bottom: 0; color: #fff;}
 .com_wrap3 .com_tit_box1 h3.st2::after{opacity: 22%;}
 .com_wrap3 .com_wrap3_list{display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 79px;} 
-.com_wrap3 .com_wrap3_list li{background-size: cover;}
+.com_wrap3 .com_wrap3_list li{position: relative; background-size: cover;}
 .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list1.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list li:nth-child(2){margin: 195px 0 0; /*margin-bottom: 416px;*/ background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list li:nth-child(3){margin: 67px 0 0 92px; background: url(../images/sub/com_wrap3_list3.jpg)no-repeat;}
