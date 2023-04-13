@@ -25,40 +25,149 @@
 
     <script src="js/script.js"></script>
     <script src="js/sub.js"></script>
-<style>
-    
-/* 수정 */
-.com_tit_box1.st2 h3{position: relative; margin-bottom: 50px; padding-bottom: 46px;}
-.com_tit_box1.st2 h3::after{content: ''; width: 42px; height: 6px; position: absolute; left: 50%; transform: translateX(-50%); bottom: 0; background-color: #009f93;}
-.com_tit_box1.st2 p{font-weight: 400; font-size: 24px;  letter-spacing: -2px;}
-.com_tit_box1.st2 p.tit{margin-bottom: 30px;}
-.com_tit_box1.st2 p .color{font-size: 30px; font-weight: 700; line-height: 52px; color: #009f93;}
-.com_tit_box1.st2 p .color strong{font-size: 45px;}
-.com_content_wrap3.st{background: url(../images/sub/bg2.png)no-repeat; background-size: cover;}
-.com_tit_box1.st2 h3.st{margin-bottom: 82px;}
-.com_content_wrap5.st .img_box{margin-top: 100px;}
-.com_list2.st3{display: inline-block; width: auto; text-align: left; margin: 0 -15px; padding: 0px 53px;}
-.com_list2.st3 li{display: inline-block; width: 435px; margin: 0 15px 33px}
-.com_list2.st3 li .text{height: 229px; padding: 48px 5px 0;}
-.com_list2.st3 li .text h4{margin-bottom: 18px; font-size: 30px;}
-.com_list2.st3 li .text p{font-size: 20px;}
-.com_list2_wrap{text-align: center;}
-.com_content_wrap8.st .com_wrap3 .com_tit_box1{margin-bottom: 134px;}
-.com_content_wrap8.st p.st{font-size: 24px; font-weight: 300;}
-.com_content_wrap8.st .com_wrap3 .com_wrap3_list{margin-top: 0;}
-.com_content_wrap8.st .com_wrap3_text{bottom: 326px; font-size: 24px; line-height: 36px;}
-.com_content_wrap8 .is-inview{animation: none;}
+    <style>
+        /* 수정 */
+        .com_tit_box1.st2 h3 {
+            position: relative;
+            margin-bottom: 50px;
+            padding-bottom: 46px;
+        }
 
-/* 공통 */
-.is-inview{animation: op_effect 1s both;}
-@keyframes op_effect{
+        .com_tit_box1.st2 h3::after {
+            content: '';
+            width: 42px;
+            height: 6px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+            background-color: #009f93;
+        }
 
-     0%{opacity: 0; transform: translateY(70px);}
-     100%{opacity: 1; transform: translateY(0);}
- 
- }
- 
-</style>
+        .com_tit_box1.st2 p {
+            font-weight: 400;
+            font-size: 24px;
+            letter-spacing: -2px;
+        }
+
+        .com_tit_box1.st2 p.tit {
+            margin-bottom: 30px;
+        }
+
+        .com_tit_box1.st2 p .color {
+            font-size: 30px;
+            font-weight: 700;
+            line-height: 52px;
+            color: #009f93;
+        }
+
+        .com_tit_box1.st2 p .color strong {
+            font-size: 45px;
+        }
+
+        .com_content_wrap3.st {
+            background: url(../images/sub/bg2.png)no-repeat;
+            background-size: cover;
+        }
+
+        .com_tit_box1.st2 h3.st {
+            margin-bottom: 82px;
+        }
+
+        .com_content_wrap5.st .img_box {
+            margin-top: 100px;
+        }
+
+        .com_list2.st3 {
+            display: inline-block;
+            width: auto;
+            text-align: left;
+            margin: 0 -15px;
+            padding: 0px 53px;
+        }
+
+        .com_list2.st3 li {
+            display: inline-block;
+            width: 435px;
+            margin: 0 15px 33px
+        }
+
+        .com_list2.st3 li .text {
+            height: 229px;
+            padding: 48px 5px 0;
+        }
+
+        .com_list2.st3 li .text h4 {
+            margin-bottom: 18px;
+            font-size: 30px;
+        }
+
+        .com_list2.st3 li .text p {
+            font-size: 20px;
+        }
+
+        .com_list2_wrap {
+            text-align: center;
+        }
+
+        .com_content_wrap8.st .com_wrap3 .com_tit_box1 {
+            margin-bottom: 134px;
+        }
+
+        .com_content_wrap8.st p.st {
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        .com_content_wrap8.st .com_wrap3 .com_wrap3_list {
+            margin-top: 0;
+        }
+
+        .com_content_wrap8.st .com_wrap3_text {
+            bottom: 326px;
+            font-size: 24px;
+            line-height: 36px;
+        }
+
+        .com_wrap3 .com_wrap3_list li.is-inview {
+            animation: op_effect2 1s both;
+        }
+
+        /* 공통 */
+        .is-inview {
+            animation: op_effect 1s both;
+        }
+
+        @keyframes op_effect {
+
+            0% {
+                position: relative;
+                opacity: 0;
+                transform: translateY(70px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+        }
+
+        @keyframes op_effect2 {
+
+            0% {
+                position: relative;
+                opacity: 0;
+                top: 70px
+            }
+
+            100% {
+                opacity: 1;
+                top: 0;
+            }
+
+        }
+    </style>
 </head>
 
 <body>
@@ -841,7 +950,7 @@
                                         독소, 노폐물을 제거하는 등 면역을 강화, 지속 시키는 SBT 치료가 필요한 이유입니다.
                                     </p>
 
-                                    <ul class="com_wrap3_list">
+                                    <ul class="com_wrap3_list" data-scroll>
                                         <li data-scroll data-scroll-speed="2" data-scroll-delay="0.1"
                                             style="margin-top: -30px;">
                                             <span>
@@ -1869,6 +1978,12 @@
 
     </div>
     <!-- //wrap -->
+
+    <script>
+        $(function () {
+
+        });
+    </script>
 
 </body>
 
