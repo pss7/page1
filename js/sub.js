@@ -11,8 +11,6 @@ $(function () {
         autoplaySpeed: 5000,
         speed: 500,
     });
-
-    /* 공통 */
     $('.com_slick_wrap .slick').slick({
         autoplay: true,
         variableWidth: true,
@@ -21,8 +19,6 @@ $(function () {
         autoplaySpeed: 2000,
         speed: 700,
     });
-
-    /* 공통 */
     $('.com_rayout_right .slick').slick({
         arrows: true,
         slidesToShow: 1,
@@ -32,12 +28,6 @@ $(function () {
         fade: true,
         speed: 500,
     });
-    /*
-    $('.com_rayout_right .slick').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-    });
-    $('.com_rayout_right .slick').on('afterChange', function (event, slick, currentSlide, nextSlide) {
-    });
-    */
 
     $('.reservation_box .time_lsit li a').click(function () {
         $('.reservation_box .time_lsit li a').removeClass('active');
@@ -137,5 +127,14 @@ $(function () {
     ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
     ScrollTrigger.refresh();
 
+    /*
+    new fullpage('#fullpage', {
+        //options here
+        autoScrolling: true,
+        scrollHorizontally: true,
+    });
+    */
+
 });
+
 
