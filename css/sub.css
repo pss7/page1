@@ -240,8 +240,10 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .com_wrap5 .why_right .video_box .video{margin-bottom: 41px; width: 706px; height: 397px;}
 .com_wrap5 .why_right .video_box .video_list{display: flex; gap: 0 13px;}
 .com_wrap5 .why_right .video_box .video_list li{}
+.com_wrap5 .why_right .video_box .video_list a{}
+.com_wrap5 .why_right .video_box .video_list a:hover .video_list_top{border: 6px solid #3db6ad;}
 .com_wrap5 .why_right .video_box .video_list a{position: relative; display: block; width: 167px;}
-.com_wrap5 .why_right .video_box .video_list a .video_list_top{position: relative; margin-bottom: 17px; width: 167px; height: 96px;}
+.com_wrap5 .why_right .video_box .video_list a .video_list_top{position: relative; margin-bottom: 17px; width: 167px; height: 96px; transition: all .2s;}
 .com_wrap5 .why_right .video_box .video_list a .video_list_top img{display: block; width: 100%; height: 100%;}
 .com_wrap5 .why_right .video_box .video_list a .video_list_bottom{font-size: 15px; color:#272727; letter-spacing: -1px;}
 .why_wrap .why_box3_wrap .why_box3{position: relative; padding: 150px 0 265px; z-index: 9;}
