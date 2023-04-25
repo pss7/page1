@@ -35,6 +35,26 @@ $(function () {
         return false;
     });
 
+    $('.slick_wrap2 .slick2').slick({
+        arrows: true,
+        slidesToShow: 1,
+        prevArrow: $('.slick_wrap2 .control .prev'),
+        nextArrow: $('.slick_wrap2 .control .next'),
+        autoplaySpeed: 5000,
+        fade: true,
+        speed: 500,
+    });
+
+    $('.slick_wrap3 .slick3').slick({
+        arrows: true,
+        slidesToShow: 1,
+        prevArrow: $('.slick_wrap3 .control .prev'),
+        nextArrow: $('.slick_wrap3 .control .next'),
+        autoplaySpeed: 5000,
+        fade: true,
+        speed: 500,
+    });
+
     /* 고객후기 */
     $('.review_content_box').hide();
     $('.review_content_box').first().show();
