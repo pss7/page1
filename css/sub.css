@@ -17,9 +17,10 @@
  .com_list2.st3 {display: inline-block; width: auto; text-align: left; margin: 0 -15px; padding: 0px 53px;}
  .com_list2.st3 li {display: inline-block;  width: 435px;  margin: 0 15px 33px }
  .com_list2.st3 li .text {height: 229px; padding: 48px 5px 0; }
- .com_list2.st3 li .text h4 {margin-bottom: 18px; font-size: 30px;}
+ .com_list2.st3 li .text h4 {margin-bottom: 18px; font-size: 30px; line-height: 35px;}
  .com_list2.st3 li .text p {font-size: 20px;}
  .com_list2_wrap {text-align: center; }
+ .com_list2_wrap.st .com_list2 li .text{height: 229px!important;}
  .com_content_wrap8.st .com_wrap3 .com_tit_box1 {margin-bottom: 134px;}
  .com_content_wrap8.st p.st {font-size: 24px; font-weight: 300; }
  .com_content_wrap8.st .com_wrap3 .com_wrap3_list {margin-top: 0;}
@@ -106,7 +107,7 @@
 .com_tit_box1 h3.st{position: relative; margin-bottom: 116px; padding-top: 50px;}
 .com_tit_box1 h3.st::after{content: ''; padding: 202px 165px 0 0;  position: absolute; left: 50%; transform: translateX(-50%); top:0;
 background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: transparent!important;}
-.com_tit_box1 p{margin-bottom: 61px; text-align: center; font-weight: 500; font-size: 20px; color: #0f0f0f; line-height: 1.8; letter-spacing: -1px;}
+.com_tit_box1 p{margin-bottom: 61px; text-align: center; font-weight: 500; font-size: 24px; color: #0f0f0f; line-height: 1.8; letter-spacing: -1px;}
 .com_tit_box1 h3{position: relative; margin-bottom: 33px; font-weight: 700; font-size: 54px; color: #0f0f0f; text-align: center; letter-spacing: -4px;}
 .com_tit_box1 .text_img{text-align: center;}
 .com_tit_box1.st h3{color: #fff;}
@@ -241,7 +242,7 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .com_wrap5 .why_right .video_box .video_list{display: flex; gap: 0 13px;}
 .com_wrap5 .why_right .video_box .video_list li{}
 .com_wrap5 .why_right .video_box .video_list a{}
-.com_wrap5 .why_right .video_box .video_list a:hover .video_list_top{border: 6px solid #3db6ad;}
+.com_wrap5 .why_right .video_box .video_list a:hover .video_list_top{/*border: 6px solid #3db6ad;*/}
 .com_wrap5 .why_right .video_box .video_list a{position: relative; display: block; width: 167px;}
 .com_wrap5 .why_right .video_box .video_list a .video_list_top{position: relative; margin-bottom: 17px; width: 167px; height: 96px; transition: all .2s;}
 .com_wrap5 .why_right .video_box .video_list a .video_list_top img{display: block; width: 100%; height: 100%;}
@@ -821,6 +822,7 @@ select{border-radius:0; }
 .com_content_box4 p{margin-bottom: 95px;}
 .com_content_box4 .atopy_list1{display: flex; gap: 0 71px; justify-content: center;}
 .com_content_box4 .atopy_list1 li img{display: block;}
+.com_content_box4 img{display: block; margin: 0 auto;}
 .com_content_box5{padding: 112px 0 156px; border-bottom: 1px solid #0f0f0f;}
 .com_content_box5 .symptom_wrap{margin-bottom: 167px; position: relative; padding: 70px 0 0; height: 276px; 
      border: 1px solid #dedede; border-radius: 5px; background-color: #dbe5e4; text-align: center;}
@@ -838,6 +840,7 @@ select{border-radius:0; }
 .com_list2 li .img img{display: block; width: 100%;}
 .com_list2 li .text{position: relative; height:214px; padding: 26px 5px 0; border: 1px solid #dfe0df; border-width: 0 1px 1px; text-align: center; background-color: #dbe5e4;}
 .com_list2 li .text h4{margin-bottom: 9px; font-weight: 700; color: #0f0f0f; font-size: 26px;}
+.com_list2 li .text h4 span{font-size: 20px; color: #0f0f0f; letter-spacing: -1px;} 
 .com_list2 li .text p{font-weight: 500; font-size: 18px; color: #0f0f0f; letter-spacing: -2px; line-height: 1.6;}
 .com_list2 li .text .text_box{position: absolute; left:0; right:0; bottom: 29px; display: flex; gap: 0 12px; align-items: center; justify-content: center;}
 .com_list2 li .text .text_box span{display: block; width: 58px; height: 27px; line-height: 27px; background-color: #378f90; border-radius: 50px; text-align: center; font-weight: 500; color: #fff; font-size: 14px;}
@@ -857,6 +860,7 @@ select{border-radius:0; }
 .com_wrap2 .com_question .com_question_right .com_question_text{margin-left: 28px; padding: 45px 40px; position: relative;
       min-width: 544px; background-color:#f6efe9; font-size: 25px; font-weight: 700; color: #0f0f0f; letter-spacing: -2px; border-radius: 5px;} 
 .com_content_wrap8{position: relative; background: url(../images/sub/com_wrap3_bg1.jpg)no-repeat; background-size: cover; z-index: -1;}
+.com_content_wrap8::after{content: '수정중입니다.'; display: flex; align-items: center; justify-content: center; position: absolute; top:0; left:0; right:0; bottom: 0; background-color: #000; color: #fff; font-size: 60px;}
 .com_content_wrap8 .com_wrap3 p{letter-spacing: -2px;}
 .com_wrap3{position: relative; padding: 151px 165px 220px 133px;}
 .com_wrap3 p{margin-bottom: 54px; font-size: 20px; color: #fff; line-height: 1.8; text-align: center;}
@@ -903,13 +907,14 @@ select{border-radius:0; }
 .atopycause_list_wrap .atopycause_list_right ul li .text h4{margin-bottom: 19px; font-size: 28px; letter-spacing: -1px; font-weight: 700;color: #0f0f0f; text-align: center;}
 .atopycause_list_wrap .atopycause_list_right ul li .text span{display: block; font-weight: 500; font-size: 18px; color: #0f0f0f; text-align: center;}
 .atopycause_list_wrap .atopycause_list_right ul{display: flex; gap: 0 32px;}
-.chinese_medicine_wrap{position: relative; width: 1320px; margin: 632px auto 0; padding: 0 136px 0 84px; /*padding: 0 42px 0 84px;*/ height: 650px; background-color: #dceae9; border-radius: 5px;}
+.chinese_medicine_wrap{position: relative; width: 1363px; margin: 45px auto 0; padding: 0 136px 0 84px; /*padding: 0 42px 0 84px;*/ height: 650px; background-color: #dceae9; border-radius: 5px;}
 .chinese_medicine_wrap .chinese_medicine_box{display: flex; gap: 0 70px; align-items: center; height: 100%;}
 .chinese_medicine_wrap .chinese_medicine_box .img img{display: block;}
 .chinese_medicine_wrap .chinese_medicine_box .text{position: absolute; top: 50%; transform: translateY(-50%); left:663px; letter-spacing: -1px;}
 .chinese_medicine_wrap .chinese_medicine_box .text h4{margin-bottom: 30px; font-weight: 700; font-size: 33px; color: #0f0f0f;}
 .chinese_medicine_wrap .chinese_medicine_box .text p{font-weight: 500; font-size: 18px; color: #0f0f0f; line-height: 1.6; } 
 .chinese_medicine_wrap .control{position: absolute; top: 50%; transform: translateY(-50%); right:42px;}
+.com_content_wrap5 .com_list2 li .text{height: 286px;}
 
 /* 사마귀 */
 .border{padding-bottom: 130px; border-bottom: 1px solid #0f0f0f;}
@@ -936,7 +941,13 @@ select{border-radius:0; }
 .com_list3 li .img{margin-bottom: 23px;}
 .com_list3 li .img img{display: block; margin: 0 auto;}
 .com_list3 li .text p{font-size: 18px; color: #0f0f0f; line-height: 1.6; text-align: center;}
+.com_list3 li:nth-child(2){transition-delay: .3s;}
+.com_list3 li:nth-child(3){transition-delay: .35s;}
+.com_list3 li:nth-child(4){transition-delay: .4s;}
+.com_list3 li:nth-child(5){transition-delay: .45s;}
+.com_list3.st li{background-color: #fff; border: 0;}
 .com_table_wrap{width: 1320px; margin:  100px auto 0;}
+.com_table_wrap img{display: block; margin: 0 auto;}
 .com_table_wrap .com_table{width: 100%; border-bottom: 3px solid #000;} 
 .com_table_wrap .com_table thead tr th{padding-bottom: 24px; font-weight: 700; color:#0f0f0f; font-size: 28px; border-bottom: 3px solid #000; text-align: center;}
 .com_table_wrap .com_table tbody tr th{font-weight: 500; font-size: 18px; color: #009f93; border-bottom: 1px solid #d6d6d6;}
@@ -953,3 +964,8 @@ select{border-radius:0; }
 .text_wrap1_list li h4{margin-bottom: 34px; font-weight: 700; color: #0f0f0f; font-size: 28px;}
 .text_list2 li{font-weight: 500; font-size: 20px; color: #0f0f0f; line-height: 1.8;}
 
+/* 두드러기 */
+.com_content_wrap4.st .com_list3 li{}
+.com_content_wrap4.st .com_list3 li{padding: 0;  width: auto; height: auto; background-color: #fff; border: 0;}
+.com_content_wrap4.st .border{padding-bottom: 100px;}
+.com_content_wrap4.st .com_content_box4 p{margin-bottom: 72px;}
