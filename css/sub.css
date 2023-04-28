@@ -860,7 +860,6 @@ select{border-radius:0; }
 .com_wrap2 .com_question .com_question_right .com_question_text{margin-left: 28px; padding: 45px 40px; position: relative;
       min-width: 544px; background-color:#f6efe9; font-size: 25px; font-weight: 700; color: #0f0f0f; letter-spacing: -2px; border-radius: 5px;} 
 .com_content_wrap8{position: relative; background: url(../images/sub/com_wrap3_bg1.jpg)no-repeat; background-size: cover; z-index: -1;}
-.com_content_wrap8::after{content: '수정중입니다.'; display: flex; align-items: center; justify-content: center; position: absolute; top:0; left:0; right:0; bottom: 0; background-color: #000; color: #fff; font-size: 60px;}
 .com_content_wrap8 .com_wrap3 p{letter-spacing: -2px;}
 .com_wrap3{position: relative; padding: 151px 165px 220px 133px;}
 .com_wrap3 p{margin-bottom: 54px; font-size: 20px; color: #fff; line-height: 1.8; text-align: center;}
