@@ -1,5 +1,8 @@
  @charset "utf-8";
 
+ body{scrollbar-width: none;}
+ body::-webkit-scrollbar {display: none;}
+
 .content_wrap{padding: 162px 0 50px;}
 .com_branch_wrap2{margin-top: 50px;}
 .com_branch_wrap .com_branch{padding-top: 114px;}
