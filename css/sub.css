@@ -1,4 +1,4 @@
- @charset "utf-8";
+  @charset "utf-8";
 
  body{scrollbar-width: none;}
  body::-webkit-scrollbar {display: none;}
@@ -18,7 +18,7 @@
  .com_tit_box1.st2 h3.st {margin-bottom: 82px; }
  .com_content_wrap5.st .img_box {margin-top: 100px; }
  .com_list2.st3 {display: inline-block; width: auto; text-align: left; margin: 0 -15px; padding: 0px 53px;}
- .com_list2.st3 li {display: inline-block;  width: 435px;  margin: 0 15px 33px }
+ .com_list2.st3 > li {display: inline-block;  width: 435px;  margin: 0 15px 33px }
  .com_list2.st3 li .text {height: 229px; padding: 48px 5px 0; }
  .com_list2.st3 li .text h4 {margin-bottom: 18px; font-size: 30px; line-height: 35px;}
  .com_list2.st3 li .text p {font-size: 20px;}
@@ -839,7 +839,7 @@ select{border-radius:0; }
 .com_content_box6{padding: 122px 0 140px; border-bottom: 1px solid #0f0f0f;}
 .com_content_box6 .com_wrap2{padding-top: 0;}
 .com_list2{width: 1180px; margin: 0 auto; display: flex; gap: 64px 25px; flex-wrap: wrap; justify-content: center;}
-.com_list2 li{width: 276px; border-radius: 5px; overflow: hidden;}
+.com_list2 > li{width: 276px; border-radius: 5px; overflow: hidden;}
 .com_list2 li .img img{display: block; width: 100%;}
 .com_list2 li .text{position: relative; height:214px; padding: 26px 5px 0; border: 1px solid #dfe0df; border-width: 0 1px 1px; text-align: center; background-color: #dbe5e4;}
 .com_list2 li .text h4{margin-bottom: 9px; font-weight: 700; color: #0f0f0f; font-size: 26px;}
@@ -848,6 +848,8 @@ select{border-radius:0; }
 .com_list2 li .text .text_box{position: absolute; left:0; right:0; bottom: 29px; display: flex; gap: 0 12px; align-items: center; justify-content: center;}
 .com_list2 li .text .text_box span{display: block; width: 58px; height: 27px; line-height: 27px; background-color: #378f90; border-radius: 50px; text-align: center; font-weight: 500; color: #fff; font-size: 14px;}
 .com_list2 li .text .text_box em{font-weight: 700; color: #0f0f0f; font-size: 22px;}
+.com_list2 li .text ul{display: inline-block; text-align: left; font-weight: 500; font-size: 18px; color: #0f0f0f; letter-spacing: -2px; line-height: 1.6;}
+
 .com_wrap2{padding: 122px 140px 0;}
 .com_wrap2 .com_question_wrap{padding-top: 58px;}
 .com_wrap2 .com_question_wrap.mb .com_question:last-child{margin-bottom: 0;}
@@ -863,21 +865,21 @@ select{border-radius:0; }
 .com_wrap2 .com_question .com_question_right .com_question_text{margin-left: 28px; padding: 45px 40px; position: relative;
       min-width: 544px; background-color:#f6efe9; font-size: 25px; font-weight: 700; color: #0f0f0f; letter-spacing: -2px; border-radius: 5px;} 
 .com_content_wrap8{position: relative; background: url(../images/sub/com_wrap3_bg1.jpg)no-repeat; background-size: cover; z-index: -1;}
-.com_content_wrap8 .com_wrap3 p{letter-spacing: -2px;}
+.com_content_wrap8 .com_wrap3 p{letter-spacing: -1px;}
 .com_wrap3{position: relative; padding: 151px 165px 220px 133px;}
-.com_wrap3 p{margin-bottom: 54px; font-size: 20px; color: #fff; line-height: 1.8; text-align: center;}
+.com_wrap3 p{margin-bottom: 54px; font-size: 20px; color: #fff; line-height: 1.6; text-align: center; font-weight: 300; white-space: nowrap;} 
 .com_wrap3 .com_tit_box1{margin-bottom: 91px;}
 .com_wrap3 .com_tit_box1 h3.st2{margin-bottom: 0; color: #fff;}
-.com_wrap3 .com_tit_box1 h3.st2::after{opacity: 22%;}
+.com_wrap3 .com_tit_box1 h3.st2::after{opacity: .35;}
 .com_wrap3 .com_wrap3_list{display: flex; flex-wrap: wrap; justify-content: space-between; margin-top: 79px;} 
-.com_wrap3 .com_wrap3_list li{position: relative; background-size: cover;}
+.com_wrap3 .com_wrap3_list li{position: relative; background-size: cover; box-shadow: 40px 50px 49px rgba(54,54,54,14%);}
 .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list1.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list li:nth-child(2){margin: 195px 0 0; /*margin-bottom: 416px;*/ background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list li:nth-child(3){margin: 67px 0 0 92px; background: url(../images/sub/com_wrap3_list3.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list li:nth-child(4){margin: 416px 31px 0 0; background: url(../images/sub/com_wrap3_list4.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list li{width: 472px; height: 710px; padding: 462px 10px 106px 72px; border-radius: 5px; overflow: hidden;}
 .com_wrap3 .com_wrap3_list li span{display: block; margin-bottom: 11px; font-size: 22px; color: #fff; font-family: 'Constantia';}
-.com_wrap3 .com_wrap3_list li h4{font-size: 33px; color: #fff; font-weight: 700; letter-spacing: -2px;}
+.com_wrap3 .com_wrap3_list li h4{font-size: 33px; color: #fff; font-weight: 500; letter-spacing: -2px;}
 .com_wrap3 .com_wrap3_list.st li:nth-child(1){height: 709px; background: url(../images/sub/atopy_list1.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list.st li:nth-child(2){background: linear-gradient(to bottom, #eee7cf, #01988a);}
 .com_wrap3 .com_wrap3_text{margin-bottom: 0; position: absolute; bottom: 330px; left:138px; font-size: 20px; color: #fff; line-height: 1.8; text-align: left;}
@@ -942,7 +944,7 @@ select{border-radius:0; }
 .com_list3 li .text h4{font-weight: 700; color: #0f0f0f; font-size: 28px; text-align: center; letter-spacing: -2px;}
 .com_list3 li .img{margin-bottom: 23px;}
 .com_list3 li .img img{display: block; margin: 0 auto;}
-.com_list3 li .text p{font-size: 18px; color: #0f0f0f; line-height: 1.6; text-align: center;}
+.com_list3 li .text p{font-size: 18px; color: #0f0f0f; text-align: center; letter-spacing: -1px;}
 .com_list3 li:nth-child(2){transition-delay: .3s;}
 .com_list3 li:nth-child(3){transition-delay: .35s;}
 .com_list3 li:nth-child(4){transition-delay: .4s;}
@@ -977,3 +979,77 @@ select{border-radius:0; }
 .text_img2{position: absolute; left: 50%; margin-left: -110px!important; transform: translateY(70px); top:962px;}
 .com_content_wrap5 .img_box{margin-top: 110px;}
 
+/* 질염 */
+.vaginitis_wrap .com_list3 li .img{margin-bottom: 35px;}
+.vaginitis_wrap .com_list3 li{height: 411px;}
+.vaginitis_wrap .com_list3 li .text p{font-weight: 500; font-size: 20px; letter-spacing: -2px;}
+
+/* 자반증 */
+.purpura_wrap .com_list3 li{ padding: 100px 0 0; height: 411px;}
+.purpura_wrap .com_list3 li .img{margin-bottom: 16px; }
+
+/* 여드름 */
+.acne_wrap.com_st .com_list2 li:last-child .text{padding: 53px 5px 0;}
+.acne_wrap .acne_img1{margin-top: -25px;}
+
+/* 주사피부염 */
+.dermatitis_wrap .com_list2 li .text{padding: 59px 5px 0;}
+.dermatitis_wrap .com_list2 li:last-child .text{padding: 40px 5px 0;}
+.dermatitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list01.jpg)no-repeat;}
+.dermatitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list02.jpg)no-repeat;}
+
+/* 모낭염 */
+.folliculitis_wrap .com_wrap3{padding: 140px 165px 220px 133px;}
+.folliculitis_wrap .com_wrap3 .com_tit_box1{margin-bottom: 100px!important;}
+.folliculitis_wrap  .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list5.jpg)no-repeat;}
+.folliculitis_wrap  .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list3.jpg)no-repeat;}
+.folliculitis_wrap  .com_wrap3 .com_wrap3_list li:nth-child(3){background: url(../images/sub/com_wrap3_list6.jpg)no-repeat;}
+.folliculitis_wrap  .com_wrap3 .com_wrap3_list li:nth-child(4){background: url(../images/sub/com_wrap3_list7.jpg)no-repeat;}
+
+/* 피부묘기증 */
+.dermographism_wrap .com_list2 li .text{display: flex; justify-content: center; align-items: center;padding:0!important; height: 198px;}
+.dermographism_wrap .com_content_box5{border:0;} 
+.dermographism_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list5.jpg)no-repeat;}
+.dermographism_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list8.jpg)no-repeat;}
+
+/* 배체트 */
+.disease_wrap .com_list2 li .text{padding: 54px 0 0 32px!important; height: 231px!important; text-align: left;}
+.disease_wrap .com_content_box4{border: 0;}
+.disease_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.disease_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+
+/* 햇빛알레르기 */
+.sun_wrap .com_list2 li .text ul{font-size: 20px;}
+.sun_wrap .com_list2 li:last-child .text{padding: 53px 5px 0!important;}
+.sun_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.sun_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list10.jpg)no-repeat;}
+
+/* 구내염 */
+.stomatitis_wrap.com_st .com_list3 li .img{margin-bottom: 19px;}
+.stomatitis_wrap .com_list3 li .text h4{margin-bottom: 11px;}
+.stomatitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.stomatitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list3.jpg)no-repeat;}
+.stomatitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(3){background: url(../images/sub/com_wrap3_list6.jpg)no-repeat;}
+.stomatitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(4){background: url(../images/sub/com_wrap3_list7.jpg)no-repeat;}
+
+/* 접촉성피부염 */
+.contact_wrap  .com_list2 li .text ul{font-size: 20px;}
+.contact_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+.contact_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.contact_wrap .com_tit_box1 p{margin-bottom: 99px;}
+
+
+
+
+
+
+/* 공통 */
+.com_st .com_list3 li{ padding: 70px 0 0; height: 411px;}
+.com_st .com_list3 li .text p{font-size: 20px; font-weight: 500;}
+.com_st .com_list3 li .img{margin-bottom: 38px;}
+
+.com_st .com_list2 li .text p{font-size: 20px;}
+.com_st .com_list2 li .img{border-radius: 5px 5px 0 0; overflow: hidden;} 
+/*.com_st .com_list2 li:last-child .text{padding: 39px 5px 0;}*/
+.com_st .com_list2 li .text{padding: 53px 5px 0; height: 184px;}
+.com_st .com_list2 li h4{margin-bottom: 24px; font-size: 30px; color: #019f93; font-weight: 700;}
