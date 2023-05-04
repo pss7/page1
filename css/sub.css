@@ -867,7 +867,7 @@ select{border-radius:0; }
 .com_content_wrap8{position: relative; background: url(../images/sub/com_wrap3_bg1.jpg)no-repeat; background-size: cover; z-index: -1;}
 .com_content_wrap8 .com_wrap3 p{letter-spacing: -1px;}
 .com_wrap3{position: relative; padding: 151px 165px 220px 133px;}
-.com_wrap3 p{margin-bottom: 54px; font-size: 20px; color: #fff; line-height: 1.6; text-align: center; font-weight: 300; white-space: nowrap;} 
+.com_wrap3 p{margin-bottom: 54px; font-size: 24px; color: #fff; line-height: 1.6; text-align: center; font-weight: 300; white-space: nowrap;} 
 .com_wrap3 .com_tit_box1{margin-bottom: 91px;}
 .com_wrap3 .com_tit_box1 h3.st2{margin-bottom: 0; color: #fff;}
 .com_wrap3 .com_tit_box1 h3.st2::after{opacity: .35;}
@@ -1038,10 +1038,20 @@ select{border-radius:0; }
 .contact_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
 .contact_wrap .com_tit_box1 p{margin-bottom: 99px;}
 
+/* 소양증 */
+.pruritus_wrap .com_content_wrap4.st2 .com_list3{flex-wrap: wrap; gap: 26px; width: 1180px; margin: 0 auto 110px;}
+.pruritus_wrap .com_content_wrap4.st2 .com_list3 li{padding: 40px 0 0; transition-delay: initial;}
+.pruritus_wrap .com_content_wrap4.st2 .com_list3 li:nth-child(1){padding: 0; border: 0; background-color: 0;}
+.pruritus_wrap .com_content_wrap4.st2 .com_list3 li .img{margin-bottom: 15px;}
+.pruritus_wrap .com_content_wrap4.st2 .com_list3 li .text h4{margin-bottom: 7px;}
+.pruritus_wrap .com_list3 li .text p{letter-spacing: -2px;}
+.pruritus_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list3.jpg)no-repeat;}
+.pruritus_wrap .com_wrap3 .com_wrap3_list li:nth-child(3){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
 
-
-
-
+/* 대상포진 */
+.herpes_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.herpes_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list10.jpg)no-repeat;}
+.herpes_wrap .com_wrap3 .com_wrap3_list{margin-top: 62px;}
 
 /* 공통 */
 .com_st .com_list3 li{ padding: 70px 0 0; height: 411px;}
