@@ -27,7 +27,7 @@
  .com_content_wrap8.st .com_wrap3 .com_tit_box1 {margin-bottom: 134px;}
  .com_content_wrap8.st p.st {font-size: 24px; font-weight: 300; }
  .com_content_wrap8.st .com_wrap3 .com_wrap3_list {margin-top: 0;}
- .com_content_wrap8.st .com_wrap3_text {bottom: 326px; font-size: 24px; line-height: 36px;}
+ .com_content_wrap8.st .com_wrap3_text {bottom: 326px; /*font-size: 24px;*/ font-size: 20px; line-height: 36px;}
 
  /* 공통 */
  .op_effect{opacity: 0; transform: translateY(70px); transition: all 1s;}
@@ -879,7 +879,7 @@ select{border-radius:0; }
 .com_wrap3 .com_wrap3_list li:nth-child(4){margin: 416px 31px 0 0; background: url(../images/sub/com_wrap3_list4.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list li{width: 472px; height: 710px; padding: 462px 10px 106px 72px; border-radius: 5px; overflow: hidden;}
 .com_wrap3 .com_wrap3_list li span{display: block; margin-bottom: 11px; font-size: 22px; color: #fff; font-family: 'Constantia';}
-.com_wrap3 .com_wrap3_list li h4{font-size: 33px; color: #fff; font-weight: 500; letter-spacing: -2px;}
+.com_wrap3 .com_wrap3_list li h4{font-size: 33px; color: #fff; font-weight: 500; letter-spacing: -3px;}
 .com_wrap3 .com_wrap3_list.st li:nth-child(1){height: 709px; background: url(../images/sub/atopy_list1.jpg)no-repeat;}
 .com_wrap3 .com_wrap3_list.st li:nth-child(2){background: linear-gradient(to bottom, #eee7cf, #01988a);}
 .com_wrap3 .com_wrap3_text{margin-bottom: 0; position: absolute; bottom: 330px; left:138px; font-size: 20px; color: #fff; line-height: 1.8; text-align: left;}
@@ -1053,10 +1053,46 @@ select{border-radius:0; }
 .herpes_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list10.jpg)no-repeat;}
 .herpes_wrap .com_wrap3 .com_wrap3_list{margin-top: 62px;}
 
+/* 화농성한선염 */
+.hidradenitis_wrap .com_list3 li .text p{letter-spacing: -2px;}
+.hidradenitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+.hidradenitis_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list5.jpg)no-repeat;}
+
+/* 헤르페스 */
+.herpes_wrap2 .com_wrap3 .box p{margin-bottom: 114px;}
+.herpes_wrap2 .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.herpes_wrap2 .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list5.jpg)no-repeat;}
+.herpes_wrap2 .com_content_wrap8.st .com_wrap3_text{bottom: 301px;}
+
+/* 조갑박리증 */
+.onycholysis_wrap  .com_wrap3 .box p{margin-bottom: 104px;}
+.onycholysis_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.onycholysis_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list11.jpg)no-repeat;}
+.onycholysis_wrap .com_content_wrap8.st .com_wrap3_text{bottom: 301px;}
+
+/* 편펑태선 */
+.lichen_wrap .com_wrap3 .box p{margin-bottom: 114px;}
+.lichen_wrap .com_list2 li .text{padding: 26px 5px 0!important;}
+.lichen_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+.lichen_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list10.jpg)no-repeat;}
+.lichen_wrap .com_content_wrap8.st .com_wrap3_text{bottom: 301px;}
+
+/* 곤지름 */
+.condyloma_wrap .com_list3 li{padding:0!important; display: flex; justify-content: center; align-items: center; height: 276px!important;}
+.condyloma_wrap .com_list3 li .img{margin-bottom: 0!important;}
+.condyloma_wrap .com_list2 li .text{padding: 45px 5px 0!important;}
+.condyloma_wrap .com_list2 li .text p{letter-spacing: -3px;}
+.condyloma_wrap .com_wrap3 .box p{margin-bottom: 114px;}
+.condyloma_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list1.jpg)no-repeat;}
+.condyloma_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list3.jpg)no-repeat;}
+.condyloma_wrap .com_wrap3 .com_wrap3_list li:nth-child(3){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+.condyloma_wrap .com_content_box5{border-bottom: 0;}
+
 /* 공통 */
 .com_st .com_list3 li{ padding: 70px 0 0; height: 411px;}
 .com_st .com_list3 li .text p{font-size: 20px; font-weight: 500;}
 .com_st .com_list3 li .img{margin-bottom: 38px;}
+
 
 .com_st .com_list2 li .text p{font-size: 20px;}
 .com_st .com_list2 li .img{border-radius: 5px 5px 0 0; overflow: hidden;} 
