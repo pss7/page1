@@ -1088,6 +1088,32 @@ select{border-radius:0; }
 .condyloma_wrap .com_wrap3 .com_wrap3_list li:nth-child(3){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
 .condyloma_wrap .com_content_box5{border-bottom: 0;}
 
+/* 장미색미강진 */
+.pityriasis_wrap .com_list2.st3{padding: 0px 75px;}
+.pityriasis_wrap .com_list2.st3 li{width: 420px;}
+.pityriasis_wrap .com_list2.st3 li .text{padding: 44px 0 0 58px; height: 218px;}
+.pityriasis_wrap .com_content_box5{border-bottom: 0;}
+.pityriasis_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+.pityriasis_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+
+/* 결절설양진 */
+.prurigo_wrap .com_content_wrap8 .com_wrap3 p{margin-bottom: 77px;}
+.prurigo_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.prurigo_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list11.jpg)no-repeat;}
+.prurigo_wrap .com_tit_box1 p{margin-bottom: 85px;}
+.prurigo_wrap .com_content_wrap5 .com_list2 li .text{height: 229px;}
+
+/* 다한증 */
+.excessive_wrap .com_list3{padding-top: 57px;}
+.excessive_wrap .com_list3 li{padding: 41px 0 0!important;}
+.excessive_wrap .com_list3 li .img{margin-bottom: 18px!important;}
+.excessive_wrap .com_list3 li .text h4{margin-bottom: 12px;}
+.excessive_wrap .com_list3 li .text p{letter-spacing: -2px;}
+.excessive_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.excessive_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list3.jpg)no-repeat;}
+.excessive_wrap .com_wrap3 .com_wrap3_list li:nth-child(3){background: url(../images/sub/com_wrap3_list12.jpg)no-repeat;}
+.excessive_wrap .com_wrap3 .com_wrap3_text{bottom: 295px;}
+
 /* 공통 */
 .com_st .com_list3 li{ padding: 70px 0 0; height: 411px;}
 .com_st .com_list3 li .text p{font-size: 20px; font-weight: 500;}
