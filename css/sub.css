@@ -1114,6 +1114,29 @@ select{border-radius:0; }
 .excessive_wrap .com_wrap3 .com_wrap3_list li:nth-child(3){background: url(../images/sub/com_wrap3_list12.jpg)no-repeat;}
 .excessive_wrap .com_wrap3 .com_wrap3_text{bottom: 295px;}
 
+/* 백선 */
+.trichophyton_wrap  .com_content_wrap4.st2 .com_list3{flex-wrap: wrap; gap: 26px; width: 1180px; margin: 0 auto 110px;}
+.trichophyton_wrap  .com_content_wrap4.st2 .com_list3 li{padding: 40px 0 0; transition-delay: initial;}
+.trichophyton_wrap  .com_content_wrap4.st2 .com_list3 li:nth-child(1){padding: 0; border: 0; background-color: 0;}
+.trichophyton_wrap  .com_content_wrap4.st2 .com_list3 li .img{margin-bottom: 15px;}
+.trichophyton_wrap  .com_content_wrap4.st2 .com_list3 li .text h4{margin-bottom: 7px;}
+.trichophyton_wrap  .com_content_box4{padding: 112px 0 32px;}
+.trichophyton_wrap .com_wrap3 .box p{margin-bottom: 114px;}
+.trichophyton_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+.trichophyton_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list10.jpg)no-repeat;}
+.trichophyton_wrap .com_wrap3 .com_wrap3_text{bottom: 296px;}
+
+/* 어루러기 */
+.versicolor_wrap .color2{font-weight: 500;}
+.versicolor_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list2.jpg)no-repeat;}
+.versicolor_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list02.jpg)no-repeat;}
+
+/* 모공각화증 */
+.keratosis_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
+.keratosis_wrap .com_wrap3 .com_wrap3_list li:nth-child(2){background: url(../images/sub/com_wrap3_list10.jpg)no-repeat;}
+.keratosis_wrap .com_wrap3 .box p{margin-bottom: 91px;}
+.keratosis_wrap .com_content_wrap8.st .com_wrap3_text{bottom: 297px;}
+
 /* 공통 */
 .com_st .com_list3 li{ padding: 70px 0 0; height: 411px;}
 .com_st .com_list3 li .text p{font-size: 20px; font-weight: 500;}
