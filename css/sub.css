@@ -857,7 +857,7 @@ select{border-radius:0; }
 .com_wrap2 .com_question img{display: block;}
 .com_wrap2 .com_question:nth-child(2n){flex-direction: row-reverse;}
 .com_wrap2 .com_question:nth-child(2n) .com_question_right .com_question_text{width: 758px; padding-right: 15px; margin-left: 0; margin-right: 28px; background-color: #ecf3f2;}
-.com_wrap2 .com_question:nth-child(2n) .com_question_right .com_question_text::before{left:auto; right:-28px; transform: translateY(-50%) rotate(180deg);}
+.com_wrap2 .com_question:nth-child(2n) .com_question_right .com_question_text::before{left:auto; right:-28px; transform: translateY(-50%); background: url(../images/sub/com_question_icon2.jpg)no-repeat;}
 .com_wrap2 .com_question p{padding: 45px 0 45px 40px; font-size: 20px; font-weight: 500; color: #0f0f0f; line-height: 1.8; letter-spacing: -1px;}
 .com_wrap2 .com_question .com_question_right img{margin-left: 40px;}
 .com_wrap2 .com_question .com_question_right{align-self: flex-start;}
@@ -900,6 +900,7 @@ select{border-radius:0; }
 .com_list_wrap2 li a:hover em span::before{width: 100%;}
 
 /* 소아아토피 */
+.atopy_wrap2 .com_wrap3_list.st li:nth-child(2){background: url(../images/sub/com_wrap3_list9.jpg)no-repeat;}
 .atopycause_list_wrap{display: flex; gap: 0 32px; justify-content: center;}
 .atopycause_list_wrap .atopycause_list_left{padding: 68px 0 0; width: 389px; height: 599px; border: 1px solid #afafaf; border-radius: 100px; text-align: center;}
 .atopycause_list_wrap .atopycause_list_left .box h4{margin-bottom: 15px; font-size: 28px; font-weight: 700; color: #0f0f0f;}
@@ -919,6 +920,7 @@ select{border-radius:0; }
 .chinese_medicine_wrap .chinese_medicine_box .text p{font-weight: 500; font-size: 18px; color: #0f0f0f; line-height: 1.6; } 
 .chinese_medicine_wrap .control{position: absolute; top: 50%; transform: translateY(-50%); right:42px;}
 .com_content_wrap5 .com_list2 li .text{height: 286px;}
+
 
 /* 사마귀 */
 .border{padding-bottom: 130px; border-bottom: 1px solid #0f0f0f;}
@@ -973,6 +975,7 @@ select{border-radius:0; }
 .com_content_wrap4.st .com_list3 li{padding: 0;  width: auto; height: auto; background-color: #fff; border: 0;}
 .com_content_wrap4.st .border{padding-bottom: 100px;}
 .com_content_wrap4.st .com_content_box4 p{margin-bottom: 72px;}
+.hives_wrap .com_wrap3 .com_wrap3_list li:nth-child(1){background: url(../images/sub/com_wrap3_list02.jpg)no-repeat;}
 
 /* 습진 */
 .com_content_wrap4{position: relative;}
