@@ -817,6 +817,7 @@ select{border-radius:0; }
 .com_list_wrap.st li .text.st span{display: block; text-align: left; font-weight: 700; font-size: 18px; color: #009f93;}
 
 /* 아토피 */
+.atopy_wrap .com_wrap3 .box p{margin-bottom: 80px;}
 .com_wrap1{padding: 122px 0 140px; border-bottom: 1px solid #0f0f0f;}
 .com_wrap1 .com_tit_box1 .text_img{margin-bottom: 47px;}
 .com_wrap1 .com_img{margin: 0 auto; /*width: 686px; height: 492px;*/ border-radius: 5px; overflow: hidden;}
