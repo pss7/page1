@@ -100,6 +100,28 @@ $(function () {
         return false;
     });
 
+    /* introduce_wrap */
+    var swiper = new Swiper('.introduce_wrap #section1 .swiper-container', {
+        slidesPerView: 'auto',
+        loop: true,
+        spaceBetween: 53,
+    });
+
+    /* introduce_wrap2 */
+    var swiper = new Swiper('.introduce_wrap #section4 .swiper-container', {
+        slidesPerView: 'auto',
+        loop: true,
+        spaceBetween: 29,
+    });
+
+
+
+
+
+
+
+
+
     gsap.registerPlugin(ScrollTrigger);
 
     const locoScroll = new LocomotiveScroll({
@@ -146,6 +168,7 @@ $(function () {
     });
     ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
     ScrollTrigger.refresh();
+
 
     /*
     new fullpage('#fullpage', {
