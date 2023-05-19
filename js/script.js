@@ -1,7 +1,15 @@
 $(function () {
 
     $('.com_img_effect').addClass('active');
- 
+
+    /* sitemap */
+    $('#header .site_map_btn').click(function () {
+        $('#sitemap_wrap').addClass('active');
+    });
+    $('#sitemap_wrap .site_map_close').click(function () {
+        $('#sitemap_wrap').removeClass('active');
+    });
+
     /* header */
     $('#header .link a').click(function () {
         if ($(this).hasClass('active')) {
