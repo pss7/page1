@@ -545,6 +545,29 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .skin_box6_wrap .com_rayout_right .img_list li:nth-child(4){position: absolute; top:600px; left: 395px;}
 
 /* 생기홈케어 */
+.homecare_wrap .homecare_link{position: absolute; top:0; left:0; right:0;}
+.homecare_wrap .homecare_link a{display: inline-block; position: absolute; top:0;}
+
+.homecare_wrap .homecare_link a:nth-child(1){left: 786px;}
+.homecare_wrap .homecare_link a:nth-child(2){left: 1007px;}
+.homecare_wrap .homecare_link a:nth-child(3){left: 1228px;}
+.homecare_wrap .homecare_link a:nth-child(4){top: 448px; left: 105px;}
+.homecare_wrap .homecare_link a:nth-child(5){top: 448px; left: 303px;}
+.homecare_wrap .homecare_link a:nth-child(6){top: 448px; left: 537px;}
+.homecare_wrap .homecare_link a:nth-child(7){top: 448px; left: 747px;}
+.homecare_wrap .homecare_link a:nth-child(8){top: 448px; left: 983px;}
+.homecare_wrap .homecare_link a:nth-child(9){top: 448px; left: 1216px;}
+.homecare_wrap .homecare_link a img{display: block; margin: 0 auto; transition: all .3s;}
+.homecare_wrap .homecare_link a span{display: block; color: #0f0f0f; line-height: 1; font-weight: 500; letter-spacing: -1px; white-space: nowrap;}
+.homecare_wrap .homecare_link a .img{margin-bottom: 29px;}
+.homecare_wrap .homecare_link a:nth-child(1) .img{height: 286px;}
+.homecare_wrap .homecare_link a:nth-child(1):hover .hover{display: block; opacity: 1;}
+.homecare_wrap .homecare_link a:nth-child(1) .hover{opacity: 0; position: absolute; top:0; left:0; right:0;}
+.homecare_wrap .homecare_link a:nth-child(1):hover img{display: none;}
+
+
+
+
 .com_tit_box1 h3 em{font-family: 'Constantia'; color: #009a8e; font-weight: 400; }
 .homecare_box1_wrap .com_tit_box1 h3 em{font-size: 65px;}
 .homecare_box1_wrap{padding: 0 0 170px;}
