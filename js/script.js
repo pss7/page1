@@ -5,9 +5,11 @@ $(function () {
     /* sitemap */
     $('#header .site_map_btn').click(function () {
         $('#sitemap_wrap').addClass('active');
+        $('aside').hide();
     });
     $('#sitemap_wrap .site_map_close').click(function () {
         $('#sitemap_wrap').removeClass('active');
+        $('aside').show();
     });
 
     /* header */
