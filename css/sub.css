@@ -618,7 +618,7 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .homecare_box4 .care_list li a .img_box{height: 297px; margin-bottom: 23px;}
 .homecare_box4 .care_list li a .img_box img{display: block; position: sticky; margin: 0 auto;}
 .homecare_box4 .care_list li a span{display: block; line-height: 1; font-weight: 500; color: #0f0f0f;}
-.homecare_box4 .com_tit_box2{position: relative; z-index: 9;} 
+.homecare_box4 .com_tit_box2{position: relative;} 
 .homecare_box4 .care_list li:nth-child(1){margin: 0 50px;}
 .homecare_box4 .care_list li:nth-child(2){margin: 0 50px;}
 .homecare_box4 .care_list li:nth-child(3){margin: 0 50px;}
@@ -628,9 +628,9 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .homecare_box4 .care_list li:nth-child(7){}
 .homecare_box4 .care_list li:nth-child(8){}
 .homecare_box4 .care_list li:nth-child(9){}
-.homecare_box4 .img_box{position: absolute; top:335px; z-index: 1;}
+.homecare_box4 .img_box{position: absolute; top:335px; z-index: 9999;}
 .homecare_box4 .img_box img{display: block; position: static;}
-.homecare_box4 .com_tit_text{position: relative; z-index: 2;}
+.homecare_box4 .com_tit_text{display: inline-block; position: relative; z-index: 99999;}
 .homecare_box4.st2 .img_box{top: 483px;}
 /* 의료진 상담 */
 .consulting_box .com_btn_wrap{margin:30px 0 60px;}
