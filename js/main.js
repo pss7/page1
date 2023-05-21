@@ -9,7 +9,7 @@ $(function () {
 
     /* section1 */
     $('#section1 .slick').on('beforeChange', function (event, slick, currentSlide, nextSlide) {
-        $('#section1 .main_text_box').removeClass('active').fadeOut();
+        $('#section1 .main_text_box').removeClass('active').hide();
 
         $('#section1 .count').fadeOut(200);
     });
