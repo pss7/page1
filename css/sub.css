@@ -38,7 +38,7 @@
 .marquee{animation: marquee 9s linear infinite;}
 .show_effect{clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);}
 .show_effect.is-inview{animation: show_effect 1s both;}
-
+.show_effect.active{animation: show_effect 1s both;}
  @keyframes op_effect {
 
      0% {
@@ -579,7 +579,7 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .homecare_box1 .homecare_box1_text{margin-top: -66px; padding-right: 87px; display: flex; flex-direction: column; align-items: flex-end;}
 .homecare_box1 .homecare_box1_text h4{margin-bottom: 36px; font-weight: 700; font-size: 37px; color:#0f0f0f; letter-spacing: -2px; font-style: italic ;} 
 .homecare_box1 .homecare_box1_text p{color: #0f0f0f; font-weight: 500; line-height: 36px;}
-.homecare_box1 .effect_text{display: block; margin:28px 0 0 -40px;  font-size: 128px; font-family: 'Constantia'; color: #dfe7e6; white-space: nowrap; text-align: center;}
+.homecare_box1 .effect_text{position: relative; display: block; margin:28px 0 0 -40px;  font-size: 128px; font-family: 'Constantia'; color: #dfe7e6; white-space: nowrap; text-align: center;}
 .homecare_box1 .line_list{margin-top: 43px; display: flex; justify-content: center; gap: 0 20px;}
 .homecare_box1 .line_list li:nth-child(2){transition-delay: .3s;}
 .homecare_box1 .line_list li:nth-child(3){transition-delay: .6s;}
