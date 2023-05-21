@@ -475,6 +475,7 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .story_box6_wrap .com_rayout_box1 .com_rayout_right .text p:nth-of-type(1){margin-bottom: 30px;}
 
 /* 생기피부과학연구소 */
+.skin_box2_wrap h4{font-weight: 700!important;}
 .skin_wrap .com_branch_wrap{margin-top: 50px;}
 .skin_box1_wrap{background: url(../images/sub/skin_box1_bg.jpg)no-repeat; background-size: cover; background-position-y: 50px;}
 .skin_box1{padding: 30px 0 155px; border-bottom: 1px solid #0f0f0f;}
