@@ -31,18 +31,17 @@ $(function () {
         $('#section1 .count').html('<em>' + i + '</em> ' + slick.slideCount);
     });
     $('#section1 .slick').slick({
-        autoplay: false,
+        autoplay: true,
         arrows: false,
         accessibility: false,
         draggable: true,
         infinite: true,
-        fade: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         zIndex: 1000,
         pauseOnHover: false,
         autoplaySpeed: 5000,
-        speed: 500,
+        speed: 1500,
     });
 
     /* section3 */
