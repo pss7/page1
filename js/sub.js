@@ -114,13 +114,36 @@ $(function () {
         spaceBetween: 29,
     });
 
+    $(document).scroll(function () {
+        if ($(document).scrollTop() < 5550) {
+            $(".history_text").text('2008');
+        }if ($(document).scrollTop() > 5550) {
+            $(".history_text").text('2011');
+        }if ($(document).scrollTop() > 5870) {
+            $(".history_text").text('2012');
+        }if ($(document).scrollTop() > 5900) {
+            $(".history_text").text('2012');
+        }if ($(document).scrollTop() > 6100) {
+            $(".history_text").text('2013');
+        }if ($(document).scrollTop() > 6400) {
+            $(".history_text").text('2014');
+        }if ($(document).scrollTop() > 7000) {
+            $(".history_text").text('2015');
+        }if ($(document).scrollTop() > 7500) {
+            $(".history_text").text('2016');
+        }if ($(document).scrollTop() > 8000) {
+            $(".history_text").text('2017');
+        }if ($(document).scrollTop() > 8700) {
+            $(".history_text").text('2018');
+        }if ($(document).scrollTop() > 9200) {
+            $(".history_text").text('2019');
+        }if ($(document).scrollTop() > 9800) {
+            $(".history_text").text('2020');
+        }if ($(document).scrollTop() > 10300) {
+            $(".history_text").text('2021');
+        }
 
-
-
-
-
-
-
+    });
 
     gsap.registerPlugin(ScrollTrigger);
 
@@ -179,5 +202,8 @@ $(function () {
     */
 
 });
+
+
+
 
 
