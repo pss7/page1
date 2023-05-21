@@ -3,7 +3,7 @@ $(function () {
     /* aos */
     $(window).on('load', function () {
         AOS.init({
-            duration: 1700
+            duration: 1500
         });
     });
 
