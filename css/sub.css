@@ -540,10 +540,10 @@ background: url(../images/sub/q.png)no-repeat;  z-index: -1; background-color: t
 .skin_box6_wrap .com_rayout_right{padding: 0;}
 .skin_box6_wrap .com_rayout_right .img_list li.is-inview{opacity: 1; transform: translateY(0);}
 .skin_box6_wrap .com_rayout_right .img_list li{transform: translateY(70px);}
-.skin_box6_wrap .com_rayout_right .img_list li:nth-child(1){position: absolute; top:-200px;}
-.skin_box6_wrap .com_rayout_right .img_list li:nth-child(2){position: absolute; top:40px; left: 377px;}
-.skin_box6_wrap .com_rayout_right .img_list li:nth-child(3){position: absolute; top:335px; left: 90px;}
-.skin_box6_wrap .com_rayout_right .img_list li:nth-child(4){position: absolute; top:600px; left: 395px;}
+.skin_box6_wrap .com_rayout_right .img_list li:nth-child(1){position: absolute; top:-270px;}
+.skin_box6_wrap .com_rayout_right .img_list li:nth-child(2){position: absolute; top:-24px; left: 294px;}
+.skin_box6_wrap .com_rayout_right .img_list li:nth-child(3){position: absolute; top:274px; left: 90px;}
+.skin_box6_wrap .com_rayout_right .img_list li:nth-child(4){position: absolute; top:528px; left: 395px;}
 
 /* 생기홈케어 */
 .homecare_wrap .homecare_link{position: absolute; top:0; left:0; right:0;}
